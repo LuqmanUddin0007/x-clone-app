@@ -2,7 +2,7 @@
 
 A complete full-stack Twitter/X-style microblogging application built using **Laravel API with Sanctum** and a simple **Blade + JavaScript frontend**. The application lets users register, log in, update profiles (with pictures) and create short posts (like tweets).
 
-This project is beginner-friendly, thoroughly documented and designed with best practices including API testing, repository pattern, and proper validation.
+This project is beginner-friendly, thoroughly documented and designed with best practices including API testing, repository pattern and proper validation.
 
 ---
 
@@ -78,18 +78,6 @@ php artisan serve --port=8001
 Visit `http://localhost:8001` to view the app.
 
 > ✅ You’re now ready to use the app!
-
----
-
-## 📂 Frontend Routes
-
-| Page             | URL              | Description                       |
-|------------------|------------------|-----------------------------------|
-| Login            | `/`              | Login form                        |
-| Register         | `/register`      | Registration form                 |
-| Dashboard        | `/dashboard`     | Feed + create post                |
-| Profile (private)| `/profile`       | View/update own profile           |
-| Profile (public) | `/profile/{id}`  | View any user's public profile    |
 
 ---
 
